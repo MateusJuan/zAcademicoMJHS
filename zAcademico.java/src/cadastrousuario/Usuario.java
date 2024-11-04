@@ -17,46 +17,54 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public String getNome(){
+
+    public String getNome() {
         return this.nome;
     }
-    public void setNome(String nome){
+
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getCpf(){
+    public String getCpf() {
         return this.cpf;
     }
-    public void setcpf(String cpf){
+
+    public void setCpf(String cpf) {
         this.cpf = cpf;
     }
 
-    public int getIdade(){
+    public int getIdade() {
         return this.idade;
     }
-    public void setIdade(int idade){
+
+    public void setIdade(int idade) {
         this.idade = idade;
     }
 
-    public String getEmailPessoal(){
+    public String getEmailPessoal() {
         return this.emailPessoal;
     }
-    public void setEmailPessoal(String emailPessoal){
+
+    public void setEmailPessoal(String emailPessoal) {
         this.emailPessoal = emailPessoal;
     }
 
-    public String getEmailInstitucional(){
+    public String getEmailInstitucional() {
         return this.emailInstitucional;
     }
-    public void setEmailInstitucional(String emailInstitucional){
+
+    public void setEmailInstitucional(String emailInstitucional) {
         this.emailInstitucional = emailInstitucional;
     }
 
-    public String getSenha(){
-        return this.nome;
+    public String getSenha() {
+        return this.senha;
     }
-    public void setSenha(String senha){
+
+    public void setSenha(String senha) {
         this.senha = senha;
     }
+
 
 }
